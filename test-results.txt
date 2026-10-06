@@ -1,0 +1,18 @@
+Automated Test Evidence
+
+Command:
+g++ -std=c++17 -Wall -Wextra -pedantic tests/test_library_manager.cpp -o library_tests
+./library_tests
+
+Actual output:
+All automated tests completed.
+Passed: 25
+Failed: 0
+
+Coverage:
+- Linear search: normal, first, last, missing, invalid
+- Binary search: normal, first, last, missing, invalid
+- Merge sort: normal, duplicate title, empty, single record
+- Selection sort: normal ordering
+- Reporting: normal and boundary
+- Validation: invalid ID, empty title, invalid year
